@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD APP</h1>
+        
+        <form id="form" >
+            <p id="cap">Enter your details here</p>
+            <input type="text" class="name" id="fname" name="fnam" placeholder="enter your name"><br>
+            <input type="number" class="name" id="roln" name="rn" placeholder="enter your roll no."><br>
+            <input type="text" class="name" id="branch" name="br" placeholder="enter your branch"><br>
+            <input type="email" class="name" id="email" name="eid" placeholder="enter your email ID"><br>
+            <input type="text" class="name" id="gender" name="gdr" placeholder="enter your gender"><br>
+
+            <button type="submit" class="btn" id="sub">ADD</button>
+            <button type="submit" class="btn" id="set">SAVE</button>
+        </form>
+    </div>
+    
+    <div class="display" id="take">
+        <ul class="head">
+            <li class="field" id="dname">NAME</li>
+            <li class="field" id="droll">ROLL NO</li>
+            <li class="field" id="dbranch">BRANCH</li>
+            <li class="field" id="demail">EMAIL ID</li>
+            <li class="field" id="dgender">GENDER</li>
+            <li class="field" id="dop">OPERATIONS</li>
+            <br><br>
+        </ul>
+        <div class="record">
+    
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
